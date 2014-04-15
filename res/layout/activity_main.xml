@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gigo.android.notesquirrel.MainActivity$PlaceholderFragment" >
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Enter your text here." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content"
+            android:text="@string/save_button_label" />
+
+        <Button
+            android:id="@+id/lock"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content"
+            android:text="@string/Lock" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/clear_save_data_flag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_saved_data" />
+
+</LinearLayout>

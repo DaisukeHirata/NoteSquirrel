@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NoteSquirrel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="toast_cant_save">can not save file</string>
+    <string name="clear_saved_data">Clear Saved Data</string>
+    <string name="save_button_label">Save</string>
+    <string name="title_activity_image">Passpoints Image</string>
+    <string name="password_image">Password Image</string>
+    <string name="Lock">Lock</string>
+    <string name="menu_passpoints_reset">Reset Passpoints</string>
+
+</resources>
